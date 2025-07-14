@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['antenna', 'motor', 'screw_M3', 'screw_M5']
+
+roboflow:
+  workspace: itmo-dezyl
+  project: 2-tmayl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/itmo-dezyl/2-tmayl/dataset/1
